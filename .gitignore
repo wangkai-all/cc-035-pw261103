@@ -31,3 +31,12 @@ test-results/
 *.sqlite3-wal
 *.sqlite3-shm
 *.sqlite3-journal
+
+# frontend
+frontend/node_modules/
+frontend/dist/
+.npm-cache/
+
+# pytest
+backend/.pytest_cache/
+__pycache__/
